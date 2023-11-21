@@ -1,0 +1,574 @@
+.contact,
+.home,
+.pricing,
+.thabangs-it-solutions {
+  position: absolute;
+  top: 53px;
+  left: 20px;
+}
+.contact,
+.home,
+.pricing {
+  left: 831px;
+}
+.contact,
+.pricing {
+  left: 939px;
+}
+
+.contact {
+  left: 1070px;
+}
+.macbook-air-1-child,
+.macbook-air-1-item {
+  position: absolute;
+  top: 492px;
+  left: 20px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-rosybrown);
+  width: 344px;
+  height: 158px;
+}
+.macbook-air-1-item {
+  left: 410px;
+}
+.making-sure-that {
+  margin: 0;
+}
+.making-sure-that-container {
+  position: absolute;
+  top: 544px;
+  left: 417px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.pexels-photo-2582937-1-icon {
+  position: absolute;
+  top: 127px;
+  left: 801px;
+  border-radius: var(--br-xl);
+  width: 451px;
+  height: 677px;
+  object-fit: cover;
+}
+.services {
+  position: absolute;
+  top: 747px;
+  left: 543px;
+}
+.macbook-air-1-inner,
+.rectangle-div {
+  position: absolute;
+  top: 848px;
+  left: 55px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-rosybrown);
+  width: 394px;
+  height: 229px;
+}
+.rectangle-div {
+  top: 1193px;
+}
+.contact-us {
+  position: absolute;
+  top: 2125px;
+  left: 42px;
+  display: inline-block;
+  width: 177px;
+  height: 36px;
+}
+.macbook-air-1-child1,
+.macbook-air-1-child2 {
+  position: absolute;
+  top: 1506px;
+  left: 55px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-rosybrown);
+  width: 394px;
+  height: 229px;
+}
+.macbook-air-1-child2 {
+  top: 1803px;
+  left: 449px;
+}
+
+
+header{
+  width: 80%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+}
+
+
+
+.logo{
+  margin-top: 8px;
+}
+
+nav .logo{
+  display: none;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #212526;
+  display: block;
+  margin: 0 2px;
+  font-weight: 600;
+  padding: 8px 18px;
+  transition: 0.2s;
+  border-radius: 38px;
+}
+
+nav ul li a.active{
+  background: var(--color-rosybrown);
+  color: #fff;
+}
+
+.hamburger{
+  display: none;
+  height: fit-content;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.hamburger:hover{
+  background: #f6f4ff;
+}
+
+.hamburger div{
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #212526;
+}
+
+nav ul li a:hover{
+  background: #f6f4ff;
+}
+
+@media only screen and (max-width: 1100px){
+  header{
+    width: 90%;
+    padding: 0 20px;
+  }
+  nav{
+    position: absolute;
+    left: -300px;
+    top: 0;
+    z-index: 999;
+    width: 280px;
+    height: 100vh;
+    background: rgba(106, 27, 32, 0.86);
+    transition: 0.2s;
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  #nav_check:checked ~ nav{
+    left: 0;
+  }
+  nav .logo{
+    display: block;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  nav ul li a{
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  nav ul{
+    display: block;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .hamburger{
+    display: block;
+  }
+}
+
+.img-7-icon {
+  position: absolute;
+  top: 1819px;
+  left: 439px;
+  width: 161px;
+  height: 136px;
+  object-fit: cover;
+}
+.macbook-air-1-child3,
+.macbook-air-1-child4,
+.macbook-air-1-child5 {
+  position: absolute;
+  top: 848px;
+  left: 840px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-rosybrown);
+  width: 394px;
+  height: 229px;
+}
+.macbook-air-1-child4,
+.macbook-air-1-child5 {
+  top: 1193px;
+}
+
+.macbook-air-1-child5 {
+  top: 1506px;
+}
+
+
+.img-1-icon,
+.img-2-icon,
+.img-3-icon {
+  position: absolute;
+  top: 848px;
+  left: 55px;
+  width: 164px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.img-2-icon,
+.img-3-icon {
+  top: 856px;
+  left: 857px;
+  width: 148px;
+  height: 148px;
+}
+.img-3-icon {
+  top: 1207px;
+  left: 68px;
+  width: 138px;
+  height: 138px;
+}
+.img-4-icon,
+.img-5-icon,
+.img-6-icon {
+  position: absolute;
+  top: 1225px;
+  left: 871px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.img-5-icon,
+.img-6-icon {
+  top: 1518px;
+  left: 62px;
+  width: 151px;
+  height: 151px;
+}
+.img-6-icon {
+  top: 1529px;
+  left: 857px;
+  width: 163px;
+  height: 140px;
+}
+.about-us,
+.values {
+  position: absolute;
+  top: 506px;
+  left: 137px;
+}
+.values {
+  left: 550px;
+}
+.thabangs-it-solutions1 {
+  position: absolute;
+  top: 544px;
+  left: 31px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  display: inline-block;
+  width: 312px;
+}
+
+.thabangs-it-solutions2 {
+  position: absolute;
+  top: 544px;
+  left: 421px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  display: inline-block;
+  width: 312px;
+}
+
+.pexels-pixabay-60504-1-icon {
+  position: absolute;
+  top: 127px;
+  left: 14px;
+  border-radius: var(--br-xl);
+  width: 584px;
+  height: 318px;
+  object-fit: cover;
+}
+.cloud-computing,
+.cloud-computing1,
+.hardware {
+  position: absolute;
+  top: 902px;
+  left: 1021px;
+  font-size: var(--font-size-xl);
+}
+.cloud-computing1,
+.hardware {
+  top: 1264px;
+}
+.hardware {
+  top: 1276px;
+  left: 239px;
+}
+.cloud-computing2,
+.cloud-computing3,
+.water-damage,
+.web-development {
+  position: absolute;
+  top: 1582px;
+  left: 239px;
+  font-size: var(--font-size-xl);
+}
+.cloud-computing3,
+.water-damage,
+.web-development {
+  left: 1027px;
+}
+.cloud-computing3,
+.water-damage {
+  top: 1868px;
+  left: 603px;
+}
+.cloud-computing3 {
+  top: 902px;
+  left: 219px;
+}
+.icons8-facebook-48-1,
+.icons8-whatsapp-48-1 {
+  position: absolute;
+  top: 2125px;
+  left: 219px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+}
+.icons8-facebook-48-1 {
+  left: 338px;
+}
+.icons8-gmail-48-1-1,
+.icons8-twitter-48-1 {
+  position: absolute;
+  top: 2117px;
+  left: 457px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.icons8-gmail-48-1-1 {
+  top: 2125px;
+  left: 592px;
+  width: 74px;
+  height: 74px;
+}
+.macbook-air-1 {
+  position: relative;
+  background-color: rgba(106, 27, 32, 0.86);
+  width: 100%;
+  height: 2374px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .macbook-air-1 {
+    background:  rgba(106, 27, 32, 0.86);
+  }
+  .pexels-pixabay-60504-1-icon {
+    position: absolute;
+    top: 127px;
+    left: 11px;
+    border-radius: var(--br-xl);
+    width: 400px;
+    height: 318px;
+    object-fit: cover;
+  }
+  .pexels-photo-2582937-1-icon {
+    display: none;
+    top: 127px;
+    left: 180px;
+    border-radius: var(--br-xl);
+    width: 451px;
+    height: 677px;
+    object-fit: cover;
+  }
+  .thabangs-it-solutions2 {
+    position: absolute;
+    top: 720px;
+    left: 30px;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    display: block;
+    width: 312px;
+  }
+  .values {
+    top: 680px;
+    left: 150px;
+  }
+  .macbook-air-1-item {
+    left: 20px;
+    top: 669px;
+  }
+  .services {
+    position: absolute;
+    top: 838px;
+    left: 130px;
+  }
+  .macbook-air-1-inner,
+.rectangle-div {
+  position: absolute;
+  top: 883px;
+  left: 25px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-rosybrown);
+  width: 394px;
+  height: 229px;
+}
+.img-1-icon{
+  left: 100px;
+  top: 900px;
+  width: 126px;
+  height: 126px;
+}
+.cloud-computing3{
+  left: 75px;
+  top: 1025px;
+}
+
+.cloud-computing1{
+  left: 130px;
+  top: 1450px;
+
+}
+.macbook-air-1-inner,
+.rectangle-div{
+  width: 250px;
+  left: 50px;
+  height: 180px;
+}
+.macbook-air-1-child3{
+  top: 1100px;
+  left: 50px;
+  width: 250px;
+  height: 180px;
+}
+.img-2-icon{
+  left: 100px;
+  top: 1099px;
+}
+.img-3-icon{
+  top: 1705px;
+  left: 110px;
+}
+
+.img-4-icon{
+  left: 100px;
+  top: 1320px;
+}
+.img-5-icon{
+  top: 1510px;
+  left: 115px;
+}
+
+.img-7-icon{
+  left: 95px;
+  top: 1910px;
+}
+.cloud-computing{
+  left: 130px;
+  top: 1240px;
+}
+.macbook-air-1-child4,
+.macbook-air-1-child5{
+  left: 50px;
+  width: 250px;
+  height: 180px;
+}
+.macbook-air-1-child1{
+  top: 1700px;
+}
+.img-6-icon{
+  left: 100px;
+  top: 2120px;
+}
+.cloud-computing2{
+  left: 130px;
+  top: 1650px;
+}
+
+.water-damage{
+  left: 105px;
+  top: 2050px;
+}
+.macbook-air-1-child1{
+  width: 250px;
+  height: 180px;
+}
+.macbook-air-1-child2{
+  left: 130px;
+}
+.macbook-air-1-child4{
+  top: 1310px;
+}
+.macbook-air-1-child5{
+  top: 1300px;
+}
+.hardware{
+  top: 1850px;
+  left: 120px;
+}
+.web-development{
+  left: 90px;
+  top: 2265px;
+}
+.macbook-air-1-child5{
+  left: 55px;
+  top: 200px;
+  width: 250px;
+  height: 180px;
+}
+.macbook-air-1-child2{
+  left: 55px;
+  top: 1900px;
+  width: 250px;
+  height: 180px;
+}
+.contact-us{
+  top: 2500px;
+}
+
+.icons8-facebook-48-1{
+  top: 2500px;
+}
+.icons8-whatsapp-48-1{
+  top: 2500px;
+}
+.icons8-twitter-48-1{
+  top: 2500px;
+}
+.icons8-gmail-48-1-1{
+  display: none;
+}
+}
