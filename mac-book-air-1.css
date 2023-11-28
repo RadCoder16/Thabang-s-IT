@@ -1,0 +1,164 @@
+.macbook-air-1-child6 {
+  position: absolute;
+  top: 72px;
+  left: 49px;
+  background-color: var(--color-dimgray);
+  width: 160px;
+  height: 90px;
+}
+.macbook-air-1-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6a1b20;
+  width: 118px;
+  height: 235px;
+}
+.what-we-do {
+  position: absolute;
+  top: 103px;
+  left: 118px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 175px;
+}
+.up-to-date {
+  margin: 0;
+}
+.up-to-date-container {
+  position: absolute;
+  top: 173px;
+  left: 129px;
+  font-size: var(--font-size-5xl);
+}
+.star-icon {
+  position: absolute;
+  top: 513px;
+  left: 44.3px;
+  width: 11px;
+  height: 12px;
+}
+.macbook-air-1-child10,
+.macbook-air-1-child8,
+.macbook-air-1-child9 {
+  position: absolute;
+  top: 553px;
+  left: 44.3px;
+  width: 11px;
+  height: 12px;
+}
+.macbook-air-1-child10,
+.macbook-air-1-child9 {
+  top: 593px;
+}
+.macbook-air-1-child10 {
+  top: 633px;
+}
+.macbook-air-1-child11,
+.macbook-air-1-child12,
+.macbook-air-1-child13 {
+  position: absolute;
+  top: 673px;
+  left: 44.3px;
+  width: 11px;
+  height: 12px;
+}
+.macbook-air-1-child12,
+.macbook-air-1-child13 {
+  top: 713px;
+}
+.macbook-air-1-child13 {
+  top: 753px;
+}
+.cloud-computing4,
+.it-support {
+  position: absolute;
+  top: 508px;
+  left: 69px;
+}
+.cloud-computing4 {
+  top: 547px;
+}
+.web-developmenthosting-and {
+  position: absolute;
+  top: 588px;
+  left: 69px;
+}
+.backup-and-data,
+.trouble-shooting-desktop {
+  position: absolute;
+  top: 627px;
+  left: 69px;
+}
+.backup-and-data {
+  top: 666px;
+}
+.pexels-photo-207489-1-icon {
+  position: absolute;
+  top: 0;
+  left: 680px;
+  border-radius: 31px;
+  width: 600px;
+  height: 338px;
+  object-fit: cover;
+}
+.microsoft-office {
+  position: absolute;
+  top: 705px;
+  left: 69px;
+}
+.artificial-intelligence-assist {
+  position: absolute;
+  top: 744px;
+  left: 69px;
+}
+.with-thabangs-it-container {
+  position: absolute;
+  top: 326px;
+  left: 15px;
+}
+.macbook-air-1-child14 {
+  position: absolute;
+  top: 416px;
+  left: 29px;
+  border-radius: 12px;
+  background-color: var(--color-dimgray);
+  width: 121px;
+  height: 38px;
+}
+.enroll {
+  position: absolute;
+  top: 423px;
+  left: 62px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.macbook-air-11 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .macbook-air-11 {
+    opacity: 0;
+  }
+  .macbook-air-11.animate {
+    animation: 1s ease 0s 1 normal forwards roll-in-left;
+  }
+  @keyframes roll-in-left {
+    0% {
+      transform: translateX(-50px) rotate(-540deg);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+}
